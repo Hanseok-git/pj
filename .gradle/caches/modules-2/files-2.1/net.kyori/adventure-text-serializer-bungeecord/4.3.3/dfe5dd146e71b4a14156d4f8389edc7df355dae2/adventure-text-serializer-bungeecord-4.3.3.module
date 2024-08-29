@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kyori",
+    "module": "adventure-text-serializer-bungeecord",
+    "version": "4.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-bungeecord-4.3.3.jar",
+          "url": "adventure-text-serializer-bungeecord-4.3.3.jar",
+          "size": 9642,
+          "sha512": "f4500c5fb09b627e9db224f6e9a77cefe4a521d80b05ef1f2c3a6c981206841d98b254f4fce92a74767e3e961dcbbb8269cfb3083afb53ae0234d0131558b5d1",
+          "sha256": "e1bc376c6dc7a2100016015735ce4ccc534d2b26bf5ab82aac751c5032056c39",
+          "sha1": "b7af0e6d45318dfb1ac2e950ebab37eab3a4ee7a",
+          "md5": "72b5af6caa32d9a9016bd141322742b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-bungeecord-4.3.3.jar",
+          "url": "adventure-text-serializer-bungeecord-4.3.3.jar",
+          "size": 9642,
+          "sha512": "f4500c5fb09b627e9db224f6e9a77cefe4a521d80b05ef1f2c3a6c981206841d98b254f4fce92a74767e3e961dcbbb8269cfb3083afb53ae0234d0131558b5d1",
+          "sha256": "e1bc376c6dc7a2100016015735ce4ccc534d2b26bf5ab82aac751c5032056c39",
+          "sha1": "b7af0e6d45318dfb1ac2e950ebab37eab3a4ee7a",
+          "md5": "72b5af6caa32d9a9016bd141322742b4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-text-serializer-bungeecord-4.3.3-javadoc.jar",
+          "url": "adventure-text-serializer-bungeecord-4.3.3-javadoc.jar",
+          "size": 284521,
+          "sha512": "866684f6112434873d2a3f291b8bcb937b81d8e1188cdbf5789cb75b71fa93bc05c622e9aaad87018a1800308291dfc47064d1f543fc59aa1063a96418d04e86",
+          "sha256": "7740013abf3943cc08d169957819206d6ea19ce658a079e42b224251d73ea0aa",
+          "sha1": "befcbf4fd9cfa745e4325920c125493fde2a6957",
+          "md5": "c845d72c963266f9b5fec8f9176f1860"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adventure-text-serializer-bungeecord-4.3.3-sources.jar",
+          "url": "adventure-text-serializer-bungeecord-4.3.3-sources.jar",
+          "size": 7897,
+          "sha512": "fc0fb44334fcb34c069e5b356f7890e4ac2830219dc019114e575799cfa9346a09d386d55f9a669c5369e7c0d1c575291c082f4c526eccf2d802cdf0a5aff271",
+          "sha256": "1da90a5feb4ae99d56c96362db1354ec7a59088874ae052fe6379c20dc30ee6f",
+          "sha1": "4ec4064ac4507839b56638d1df074299d4d3609b",
+          "md5": "039e3526327d4bbcf12fbf12be9e9561"
+        }
+      ]
+    }
+  ]
+}

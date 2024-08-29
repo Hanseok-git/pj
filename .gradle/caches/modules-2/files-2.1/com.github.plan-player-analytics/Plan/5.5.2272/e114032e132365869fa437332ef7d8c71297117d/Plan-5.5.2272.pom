@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.plan-player-analytics</groupId>
+  <artifactId>Plan</artifactId>
+  <version>5.5.2272</version>
+  <name>plan-player-analytics/Plan</name>
+  <description>Player Analytics plugin for Minecraft Server platforms - View player activity of your server with ease. :calendar:</description>
+  <url>https://www.spigotmc.org/resources/plan-player-analytics.32536/</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License v3.0</name>
+      <url>https://api.github.com/licenses/lgpl-3.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>plan-player-analytics</id>
+      <name>Plan | Player Analytics</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/plan-player-analytics/Plan.git</connection>
+    <developerConnection>scm:git://github.com/plan-player-analytics/Plan.git</developerConnection>
+    <url>git://github.com/plan-player-analytics/Plan.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger</artifactId>
+      <version>2.45</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

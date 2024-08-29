@@ -1,0 +1,14 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+      <modelVersion>4.0.0</modelVersion>
+      <groupId>org.cadixdev.licenser</groupId>
+      <artifactId>org.cadixdev.licenser.gradle.plugin</artifactId>
+      <version>0.6.1</version>
+      <packaging>pom</packaging>
+      <dependencies>
+        <dependency>
+          <groupId>gradle.plugin.org.cadixdev.gradle</groupId>
+          <artifactId>licenser</artifactId>
+          <version>0.6.1</version>
+        </dependency>
+      </dependencies>
+    </project>

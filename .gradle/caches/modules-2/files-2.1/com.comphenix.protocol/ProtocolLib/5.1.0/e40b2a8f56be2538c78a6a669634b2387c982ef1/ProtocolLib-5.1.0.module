@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.comphenix.protocol",
+    "module": "ProtocolLib",
+    "version": "5.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ProtocolLib-5.1.0.jar",
+          "url": "ProtocolLib-5.1.0.jar",
+          "size": 947911,
+          "sha512": "940e0ccae25d6fc7dfb9775c17670f6ff5edcc6658b7c12229b1729fac2801c8870f644dce9d4b39d6f7d00c0a49f1114e4dc8d4da4c7c1ddb74750a7548601a",
+          "sha256": "8d9302e4083e5a2a7abd76f2d997b23fbe9d747511eba18cf632170b069438b6",
+          "sha1": "b2b98d8da41e3cc783281dae2351573520235f81",
+          "md5": "730e68ee89c476243426c7694f3a6727"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.14.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ProtocolLib-5.1.0.jar",
+          "url": "ProtocolLib-5.1.0.jar",
+          "size": 947911,
+          "sha512": "940e0ccae25d6fc7dfb9775c17670f6ff5edcc6658b7c12229b1729fac2801c8870f644dce9d4b39d6f7d00c0a49f1114e4dc8d4da4c7c1ddb74750a7548601a",
+          "sha256": "8d9302e4083e5a2a7abd76f2d997b23fbe9d747511eba18cf632170b069438b6",
+          "sha1": "b2b98d8da41e3cc783281dae2351573520235f81",
+          "md5": "730e68ee89c476243426c7694f3a6727"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ProtocolLib-5.1.0-all.jar",
+          "url": "ProtocolLib-5.1.0-all.jar",
+          "size": 5219955,
+          "sha512": "9d73799473f4a7142aee0b12a319cf6f90543628a1000c1056c8ced0f565e29a972b639ac6b74e32bc6a2f910d827380a744c567acedb85054d8efab6b4e3e9b",
+          "sha256": "562c3ef79391e25f71b23359adb6becae7bcee36b0dfe2621b2c679013116769",
+          "sha1": "fcab5fff6702472d0128cac4fb39b538de65caae",
+          "md5": "010b30cd7bf9b0e72d06cb84e6e141b2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ProtocolLib-5.1.0-javadoc.jar",
+          "url": "ProtocolLib-5.1.0-javadoc.jar",
+          "size": 1478244,
+          "sha512": "810593e692eb2a2532ead3f3345e690f5d3bcd5bde0a0701be2aed85c0697166548375fed0fb1f19b24d0107771e226214435582bfe0c8042b78423513ef0e8b",
+          "sha256": "b0ce78898332fcc5a95a1631bec5823aa9e09f31a08d523e5d851e0f5f0760a0",
+          "sha1": "da6a2fc2bfdcf262d3bd9848503432696388d751",
+          "md5": "852725a3fa79e88a66e16c1ea748e76e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ProtocolLib-5.1.0-sources.jar",
+          "url": "ProtocolLib-5.1.0-sources.jar",
+          "size": 525780,
+          "sha512": "33f385d61dd1e6223cf936522d4e49325d4e9450816c90e25765d1ac8735bac1410c36242e39344e2e52d0c14bddf0703e44e549d771616e56fe8af93b23dc33",
+          "sha256": "96aa2b9193a2261bbf1dcc64f05a3fd06543caf7a701747cb0331ca280acaa19",
+          "sha1": "f6b9df79aea0f785fcc7ce99e5314795e37ac6ed",
+          "md5": "1a60456193866d0743bde59fba499774"
+        }
+      ]
+    }
+  ]
+}

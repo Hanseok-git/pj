@@ -1,0 +1,111 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "8.1"
+    }
+  },
+  "component" : {
+    "group" : "net.william278",
+    "module" : "DesertWell",
+    "version" : "2.0.4",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "11",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "files" : [ {
+      "name" : "DesertWell-2.0.4.jar",
+      "url" : "DesertWell-2.0.4.jar",
+      "size" : 16986,
+      "sha512" : "70bfc4754ce6e3c0a8518d4c73499344167d8b4d7b8955eb0e872781323f94fd06a3a2d2812503df4a117c551af4daacbec8fd9465dbcdbaa66bc5696fe8d415",
+      "sha256" : "b7e58f2d062a0c66860811dc181d2ecd17310db7680689fcf0f7b905c53b259d",
+      "sha1" : "41282a1f20feb47af61fc39a7d3580ff4f1157a3",
+      "md5" : "7153ac76d214019e614d586bacd0eedb"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "11",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.json",
+      "module" : "json",
+      "version" : {
+        "requires" : "20230227"
+      }
+    } ],
+    "files" : [ {
+      "name" : "DesertWell-2.0.4.jar",
+      "url" : "DesertWell-2.0.4.jar",
+      "size" : 16986,
+      "sha512" : "70bfc4754ce6e3c0a8518d4c73499344167d8b4d7b8955eb0e872781323f94fd06a3a2d2812503df4a117c551af4daacbec8fd9465dbcdbaa66bc5696fe8d415",
+      "sha256" : "b7e58f2d062a0c66860811dc181d2ecd17310db7680689fcf0f7b905c53b259d",
+      "sha1" : "41282a1f20feb47af61fc39a7d3580ff4f1157a3",
+      "md5" : "7153ac76d214019e614d586bacd0eedb"
+    } ]
+  }, {
+    "name" : "shadowRuntimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "shadowed",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "DesertWell-2.0.4.jar",
+      "url" : "DesertWell-2.0.4.jar",
+      "size" : 88133,
+      "sha512" : "ac140624f8d308c876d5c78c4fd342ea40e5799c09b46f2b5b915a443f1c022f00e35b1fd942a726601032628d94cffc590c73116108d1fc4d13477d15fbb432",
+      "sha256" : "0b6b99c9658d056f959592c1deb513b74acc37081b60bf8ccbdab1d1dfc45f57",
+      "sha1" : "3d2b7e0ff657a86ca5065b028d4077281d7d658c",
+      "md5" : "86a7c65796c0356fcad48cc88c706551"
+    } ]
+  }, {
+    "name" : "sourcesElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "sources",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "DesertWell-2.0.4.jar",
+      "url" : "DesertWell-2.0.4.jar",
+      "size" : 8440,
+      "sha512" : "12d636d67a42286e962a1c72acda80582633f7c0c784266d9aec84a56e6f966f6337955863adabd78862109d2894650925eccf09b1b1ff77fd556f9741452567",
+      "sha256" : "5c69225d6314d8d344fc7ed748f86f4ad22da856585f8470ed4827c4c4748ebd",
+      "sha1" : "cbbac0528e5168d1c1008bac9ffacf3b2996154b",
+      "md5" : "dc4a591876d57cbd62dc1e002a2c24d2"
+    } ]
+  }, {
+    "name" : "javadocElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "javadoc",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "DesertWell-2.0.4.jar",
+      "url" : "DesertWell-2.0.4.jar",
+      "size" : 435171,
+      "sha512" : "2fc67b6b72330da508a62cf248c035c993209bb836229ae0b6826520f16521f9d923c33730a514a5e0b7ea3ee7a131c889b82458326b8936e742ae208eeb4549",
+      "sha256" : "bad6f02bdc6551a35f4708066221054ca156705d81424ddfb2e845fb7f296def",
+      "sha1" : "108189bd5b4dd149cd9d915b0b29feb45f138ba8",
+      "md5" : "d0296d9448bc665f19f81c7e0284f404"
+    } ]
+  } ]
+}

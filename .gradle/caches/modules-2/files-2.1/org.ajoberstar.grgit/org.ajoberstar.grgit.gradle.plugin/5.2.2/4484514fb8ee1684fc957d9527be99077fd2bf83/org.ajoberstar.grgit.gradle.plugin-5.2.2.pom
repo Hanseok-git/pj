@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ajoberstar.grgit</groupId>
+  <artifactId>org.ajoberstar.grgit.gradle.plugin</artifactId>
+  <version>5.2.2</version>
+  <packaging>pom</packaging>
+  <name>The Groovy way to use Git</name>
+  <description>The Groovy way to use Git</description>
+  <url>https://github.com/ajoberstar/grgit</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Andrew Oberstar</name>
+      <email>andrew@ajoberstar.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:ajoberstar/grgit.git</connection>
+    <developerConnection>scm:git:ssh:git@github.com:ajoberstar/grgit.git</developerConnection>
+    <url>https://github.com/ajoberstar/grgit</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.ajoberstar.grgit</groupId>
+      <artifactId>grgit-gradle</artifactId>
+      <version>5.2.2</version>
+    </dependency>
+  </dependencies>
+</project>

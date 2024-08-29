@@ -1,0 +1,53 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.4"
+    }
+  },
+  "component" : {
+    "group" : "net.william278",
+    "module" : "hsldataconverter",
+    "version" : "1.0",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "16",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "files" : [ {
+      "name" : "hsldataconverter-1.0.jar",
+      "url" : "hsldataconverter-1.0.jar",
+      "size" : 9908,
+      "sha512" : "c20c1dfc9c0d17fb3d047b39f49b812aa57fc477f0bd7c61e86113b9853efba106d93e88955b811da28cf32bc5e64ff5ccf2d9aba09a25f6e82d45a30803bebb",
+      "sha256" : "b94ec17df731b5a193948b95c839b26cbac7b06015c3bf341b770cca6ea5de1a",
+      "sha1" : "b98c35ecdad7ef5f86508b35052b893b8c1298c8",
+      "md5" : "4bb5da88bf400a5f87ae8f722e89a5db"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "16",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "hsldataconverter-1.0.jar",
+      "url" : "hsldataconverter-1.0.jar",
+      "size" : 9908,
+      "sha512" : "c20c1dfc9c0d17fb3d047b39f49b812aa57fc477f0bd7c61e86113b9853efba106d93e88955b811da28cf32bc5e64ff5ccf2d9aba09a25f6e82d45a30803bebb",
+      "sha256" : "b94ec17df731b5a193948b95c839b26cbac7b06015c3bf341b770cca6ea5de1a",
+      "sha1" : "b98c35ecdad7ef5f86508b35052b893b8c1298c8",
+      "md5" : "4bb5da88bf400a5f87ae8f722e89a5db"
+    } ]
+  } ]
+}

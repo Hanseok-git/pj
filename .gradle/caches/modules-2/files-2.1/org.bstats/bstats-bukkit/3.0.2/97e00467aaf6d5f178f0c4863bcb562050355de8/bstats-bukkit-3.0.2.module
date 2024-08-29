@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.bstats",
+    "module": "bstats-bukkit",
+    "version": "3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "2xrjivdzmvc75juhilx4f6vtny"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.bstats",
+          "module": "bstats-base",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bstats-bukkit-3.0.2.jar",
+          "url": "bstats-bukkit-3.0.2.jar",
+          "size": 4104,
+          "sha512": "6f48a08227607c7104430640cd7395684db166a32604a6e1c4282d6577c0638624fa712387cd18f7e8c6a7adfc5cb68ba5a470af0ee84cab8d2a5891b6e026d8",
+          "sha256": "7278435aad5a1743337e61f5154e710d1c405509dd2a891ed6f602dee81eb250",
+          "sha1": "b422263152e7c0fd419a5592b20e91a088c2e326",
+          "md5": "9b5e1b8d01089255d1da3a85b8076369"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.bstats",
+          "module": "bstats-base",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bstats-bukkit-3.0.2.jar",
+          "url": "bstats-bukkit-3.0.2.jar",
+          "size": 4104,
+          "sha512": "6f48a08227607c7104430640cd7395684db166a32604a6e1c4282d6577c0638624fa712387cd18f7e8c6a7adfc5cb68ba5a470af0ee84cab8d2a5891b6e026d8",
+          "sha256": "7278435aad5a1743337e61f5154e710d1c405509dd2a891ed6f602dee81eb250",
+          "sha1": "b422263152e7c0fd419a5592b20e91a088c2e326",
+          "md5": "9b5e1b8d01089255d1da3a85b8076369"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bstats-bukkit-3.0.2-javadoc.jar",
+          "url": "bstats-bukkit-3.0.2-javadoc.jar",
+          "size": 281504,
+          "sha512": "d9031fbe8e7bb2cbadd4ece4935d348855f930b0060acf4104806037dda9a9a425bfba50fdfdcb3c7fff748773ff2b8433a2e496bb5cd98e3f11323c5c4eba60",
+          "sha256": "5de19cc3637e2a8d10e8ee4b9429ec3be047cb1b58977720578dc3215a330735",
+          "sha1": "6b7decad2d6211faa46879c061a854f27f791a6b",
+          "md5": "41e8f0738c17b2ac00632a7d04a5af3d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bstats-bukkit-3.0.2-sources.jar",
+          "url": "bstats-bukkit-3.0.2-sources.jar",
+          "size": 2421,
+          "sha512": "9e999ef84f823697a04d1d9ea5f7438107dd9884563f7782c25a6e2e1639a20e832412767c0285a7c79c66d0c1aec7d9ad4ba665a867f330d11e894a89fd5b56",
+          "sha256": "a0a11ec7e8b67766602cffd10072ffcf0a99962268616f2c111cae664d7335e8",
+          "sha1": "bba3d8eb00f742a5fef1bfc75f105d6e3f4b1ff0",
+          "md5": "9a699dbc86f727099b9a4caa3f39fd01"
+        }
+      ]
+    }
+  ]
+}

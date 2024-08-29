@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.triumphteam",
+    "module": "triumph-gui",
+    "version": "3.1.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-bukkit",
+          "version": {
+            "requires": "4.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "triumph-gui-3.1.10.jar",
+          "url": "triumph-gui-3.1.10.jar",
+          "size": 112922,
+          "sha512": "c3c56525d0a35dd969bb41292dfc5d221f27cf6a1124187d58681cb2dde64390238d4e81a92409a4176c078ecd0d1f684e5aa5fc5843c64731a268a9f875c855",
+          "sha256": "7ebdcbd049956c1bc2e67406f4ee0a831bb8b720bb87377932acb67fe2b2ce11",
+          "sha1": "177ae57299aab3efddb06c1cf67812f80565d9b0",
+          "md5": "4e77c4f85b6b8371cf648cf37ade355b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-bukkit",
+          "version": {
+            "requires": "4.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "triumph-gui-3.1.10.jar",
+          "url": "triumph-gui-3.1.10.jar",
+          "size": 112922,
+          "sha512": "c3c56525d0a35dd969bb41292dfc5d221f27cf6a1124187d58681cb2dde64390238d4e81a92409a4176c078ecd0d1f684e5aa5fc5843c64731a268a9f875c855",
+          "sha256": "7ebdcbd049956c1bc2e67406f4ee0a831bb8b720bb87377932acb67fe2b2ce11",
+          "sha1": "177ae57299aab3efddb06c1cf67812f80565d9b0",
+          "md5": "4e77c4f85b6b8371cf648cf37ade355b"
+        }
+      ]
+    }
+  ]
+}

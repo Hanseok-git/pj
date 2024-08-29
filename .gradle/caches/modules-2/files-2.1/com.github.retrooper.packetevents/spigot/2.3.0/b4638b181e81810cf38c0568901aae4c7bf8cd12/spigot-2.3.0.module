@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.retrooper.packetevents",
+    "module": "spigot",
+    "version": "2.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.retrooper.packetevents",
+          "module": "api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.github.retrooper.packetevents",
+          "module": "netty-common",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spigot-2.3.0-default.jar",
+          "url": "spigot-2.3.0-default.jar",
+          "size": 126658,
+          "sha512": "876868bb2563a71222f4d5aa1c3d51007d3eab0db363de536035e3b069c978d9bc29d97e28d297435c693eda0c3193b91ba8f4a2db87f0fdcc652f7725f910fe",
+          "sha256": "b660d3fdd897dc470f31d299b12ac050a363def966c1323598fcb90fc85ee56a",
+          "sha1": "600c81fdb9222b0b0a1f7fa9068e658da0fd5694",
+          "md5": "e9c182af5ecfef60d133bce243b9941b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.retrooper.packetevents",
+          "module": "api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.github.retrooper.packetevents",
+          "module": "netty-common",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spigot-2.3.0-default.jar",
+          "url": "spigot-2.3.0-default.jar",
+          "size": 126658,
+          "sha512": "876868bb2563a71222f4d5aa1c3d51007d3eab0db363de536035e3b069c978d9bc29d97e28d297435c693eda0c3193b91ba8f4a2db87f0fdcc652f7725f910fe",
+          "sha256": "b660d3fdd897dc470f31d299b12ac050a363def966c1323598fcb90fc85ee56a",
+          "sha1": "600c81fdb9222b0b0a1f7fa9068e658da0fd5694",
+          "md5": "e9c182af5ecfef60d133bce243b9941b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spigot-2.3.0.jar",
+          "url": "spigot-2.3.0.jar",
+          "size": 2979002,
+          "sha512": "a4fe4f1dc1ac04f410ebe0dd5b7a9f9907caffc801924c422322d4e64e403e28028f1a9f27a09ddaa0c9bf7f2b9d35823dc00f7421f4da241b0e5d70768267c2",
+          "sha256": "664786050e0ddff7c3ea59b940f7a83edaec7733e24e099047e1dfc073c0e8c5",
+          "sha1": "530ff618880b61a7a75ea4e4fd828c2569495c2a",
+          "md5": "f1cd8d7aa78b952d4f4343051eef3907"
+        }
+      ]
+    }
+  ]
+}

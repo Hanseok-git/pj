@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.bstats",
+    "module": "bstats-base",
+    "version": "3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "2xrjivdzmvc75juhilx4f6vtny"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "bstats-base-3.0.2.jar",
+          "url": "bstats-base-3.0.2.jar",
+          "size": 21935,
+          "sha512": "4f6b0b2894d95e15ab920a9bc987b24afc959f36c5f7e489074a4d61beffe07765956612c1d50722968893d3ac36d166d1a96264af34cbe30f59840c78b4afbb",
+          "sha256": "af8a0bd988cbf99bc85d42da4c04abb7d5f8b3df9ffc90b976ea7e76198466b9",
+          "sha1": "3124aa1e52325a73506a045d39166be8a94c080b",
+          "md5": "ea2d361074779144c651715539d1b479"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bstats-base-3.0.2.jar",
+          "url": "bstats-base-3.0.2.jar",
+          "size": 21935,
+          "sha512": "4f6b0b2894d95e15ab920a9bc987b24afc959f36c5f7e489074a4d61beffe07765956612c1d50722968893d3ac36d166d1a96264af34cbe30f59840c78b4afbb",
+          "sha256": "af8a0bd988cbf99bc85d42da4c04abb7d5f8b3df9ffc90b976ea7e76198466b9",
+          "sha1": "3124aa1e52325a73506a045d39166be8a94c080b",
+          "md5": "ea2d361074779144c651715539d1b479"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bstats-base-3.0.2-javadoc.jar",
+          "url": "bstats-base-3.0.2-javadoc.jar",
+          "size": 327054,
+          "sha512": "8a23bc4f428873d814bff76bf481b00690277e80ef63b7240c4fb383123bda1cb9b00459819f2fc63596c76908992cddbaf73faf6ef49c7294049d5bd2c7fd2e",
+          "sha256": "7afe7a12c31ed4166947e93698c320331a44da9578b8a8f642b4f55477f262b0",
+          "sha1": "e5a633e1bfb9720ae4e64a9168157cbc0a6e1053",
+          "md5": "5302fea4f2061b5e91da7bd1052ac6a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bstats-base-3.0.2-sources.jar",
+          "url": "bstats-base-3.0.2-sources.jar",
+          "size": 12633,
+          "sha512": "b00eff5dc89ef3333b397dd4f6f5ef8673d47f4a09c3cf57ab9b2ecff7cc7fb81f247cacc581dbb67632a822de6db41227d9b21bd3fa9fb9afd3ecec0b9b1db7",
+          "sha256": "5155d17a830cd9f9ef081002e7a48043f7db2e40a9f9758f7eef78f9c56dd41f",
+          "sha1": "559841f336733ac6a781fb5bc73a2e23c8a48916",
+          "md5": "98be083ded6c36430e42d99f067bc68b"
+        }
+      ]
+    }
+  ]
+}

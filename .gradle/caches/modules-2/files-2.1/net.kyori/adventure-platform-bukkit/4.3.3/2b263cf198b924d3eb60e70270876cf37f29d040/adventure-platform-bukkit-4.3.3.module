@@ -1,0 +1,256 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kyori",
+    "module": "adventure-platform-bukkit",
+    "version": "4.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-api",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-bungeecord",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-platform-bukkit-4.3.3.jar",
+          "url": "adventure-platform-bukkit-4.3.3.jar",
+          "size": 132790,
+          "sha512": "3666b1b43a24ca27dc2cbb3f921778339a7e2f447d36a26e4ce38dbce5fc4aed97451487f7571a46f1df46cade9369861643b1e148de298cb278cb166cd4c5d8",
+          "sha256": "76a48406b0ac77bf7410be5b7bc1d41c95d099b79a56c2b5c42f7c300b8639c9",
+          "sha1": "4fa5a2b12f10dc59fe11f1f1e406e44353175593",
+          "md5": "6101f11e85fcafd3b71f2c1f37cf3a11"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson-legacy-impl",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-facet",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-viaversion",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-api",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-bungeecord",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-platform-bukkit-4.3.3.jar",
+          "url": "adventure-platform-bukkit-4.3.3.jar",
+          "size": 132790,
+          "sha512": "3666b1b43a24ca27dc2cbb3f921778339a7e2f447d36a26e4ce38dbce5fc4aed97451487f7571a46f1df46cade9369861643b1e148de298cb278cb166cd4c5d8",
+          "sha256": "76a48406b0ac77bf7410be5b7bc1d41c95d099b79a56c2b5c42f7c300b8639c9",
+          "sha1": "4fa5a2b12f10dc59fe11f1f1e406e44353175593",
+          "md5": "6101f11e85fcafd3b71f2c1f37cf3a11"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-api",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-bungeecord",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-nbt",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-platform-bukkit-4.3.3-javadoc.jar",
+          "url": "adventure-platform-bukkit-4.3.3-javadoc.jar",
+          "size": 306721,
+          "sha512": "542ecab0a804caf55db01a6e7f7efe4f5eb198308d1ca2341fe139579806ada793337cc75d36ac474b6896c88e520358acbf2efb1451c03a8e51e2e2c89c620e",
+          "sha256": "646dbe854be128e1ed59430a31eee3fcb9f21c2258e11da34eb04e845463caf7",
+          "sha1": "551a8332ce8f0b44e3175a1d577f5e3a883dd69c",
+          "md5": "93d35f698233cde02f7b95a7ffa4bff3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adventure-platform-bukkit-4.3.3-sources.jar",
+          "url": "adventure-platform-bukkit-4.3.3-sources.jar",
+          "size": 49008,
+          "sha512": "7a721dc0547e67570e9fa87f146bfe5ebc643278a8b28ef11e9288ad98f41e95e18ff1a1045bd80335013cfdd17a0479aae9c92ff9302537316c7222ec3cb51e",
+          "sha256": "f9f6523df818873bd8931d2beafb76b8df1057b65baffff41a07bd2572519ab3",
+          "sha1": "edc8bc97c2c48152b85cf5970d0944f7f0f581cf",
+          "md5": "c6327a2c8d731ec2ddafb1103aa2abbd"
+        }
+      ]
+    }
+  ]
+}

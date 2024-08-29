@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>net.william278</groupId>
+  <artifactId>AdvancementAPI</artifactId>
+  <version>97a9583413</version>
+  <name>WiIIiam278/AdvancementAPI</name>
+  <description>An easy way to create Bukkit/Spigot server advancements</description>
+  <url>https://github.com/WiIIiam278/AdvancementAPI</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>WiIIiam278</id>
+      <name>William</name>
+      <email>will27528@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/WiIIiam278/AdvancementAPI.git</connection>
+    <developerConnection>scm:git://github.com/WiIIiam278/AdvancementAPI.git</developerConnection>
+    <url>git://github.com/WiIIiam278/AdvancementAPI.git</url>
+  </scm>
+</project>

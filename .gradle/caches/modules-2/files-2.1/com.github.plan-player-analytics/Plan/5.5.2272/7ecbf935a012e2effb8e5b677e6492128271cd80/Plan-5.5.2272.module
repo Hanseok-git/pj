@@ -1,0 +1,91 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.6"
+    }
+  },
+  "component" : {
+    "group" : "com.github.plan-player-analytics",
+    "module" : "Plan",
+    "version" : "5.5.2272",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "com.google.dagger",
+      "module" : "dagger",
+      "version" : {
+        "requires" : "2.45"
+      }
+    } ],
+    "files" : [ {
+      "name" : "Plan-5.5.2272.jar",
+      "url" : "Plan-5.5.2272.jar",
+      "size" : 92320,
+      "sha512" : "4747e5427049498280dc1286e40158319ed51b72242597e02769e21cf93d2ac7345f454784a3cc37cf48d2efe89ad3e1d37945a171e48971da6a92e8593d4c0c",
+      "sha256" : "c4caec81ca232168cf16f58dde14e16a5892bc666f18e1d25622a08559334c81",
+      "sha1" : "ad458ec96fad49a055f6ce6459785db8d7cbbdab",
+      "md5" : "c8f0b650a4aae24a40b65f91852d6136"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "com.google.dagger",
+      "module" : "dagger",
+      "version" : {
+        "requires" : "2.45"
+      }
+    } ],
+    "files" : [ {
+      "name" : "Plan-5.5.2272.jar",
+      "url" : "Plan-5.5.2272.jar",
+      "size" : 92320,
+      "sha512" : "4747e5427049498280dc1286e40158319ed51b72242597e02769e21cf93d2ac7345f454784a3cc37cf48d2efe89ad3e1d37945a171e48971da6a92e8593d4c0c",
+      "sha256" : "c4caec81ca232168cf16f58dde14e16a5892bc666f18e1d25622a08559334c81",
+      "sha1" : "ad458ec96fad49a055f6ce6459785db8d7cbbdab",
+      "md5" : "c8f0b650a4aae24a40b65f91852d6136"
+    } ]
+  }, {
+    "name" : "shadowRuntimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "shadowed",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "com.google.dagger",
+      "module" : "dagger",
+      "version" : {
+        "requires" : "2.45"
+      }
+    } ],
+    "files" : [ {
+      "name" : "Plan-5.5.2272.jar",
+      "url" : "Plan-5.5.2272.jar",
+      "size" : 130409,
+      "sha512" : "0c98eb865f1df9557be639077ab32f760e8aab8429d4e6be2ddc98167945b66abc6137994bdf0897548a5d0dd2ec300e77bf2f418a01844d40d3c81e9de8da93",
+      "sha256" : "c449f5c32bd387593753aa7d52b33984623a81f787b69813133f5760b3caf873",
+      "sha1" : "e6e7cd112f70ecb9f5010ab56c94c5b93809ce6b",
+      "md5" : "c66d236a0148f4256513ab58f3c8548e"
+    } ]
+  } ]
+}

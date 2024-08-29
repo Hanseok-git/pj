@@ -1,0 +1,3 @@
+[filesystem "Ubuntu|17.0.12|/dev/root"]
+	timestampResolution = 6813 nanoseconds
+	minRacyThreshold = 6368 microseconds

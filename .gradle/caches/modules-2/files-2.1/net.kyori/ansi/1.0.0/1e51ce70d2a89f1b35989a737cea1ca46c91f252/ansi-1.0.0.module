@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kyori",
+    "module": "ansi",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ansi-1.0.0.jar",
+          "url": "ansi-1.0.0.jar",
+          "size": 20750,
+          "sha512": "33ffd5c4fe246d376dc1a592803bd2f926a19b836459284bdb02544ae67965b7809447c8447af1f12ee997c086c3c48a46c750df937484b27fc3656e16062624",
+          "sha256": "ca8f71e2c3deb1a732b463c9c1a9e4d85bf719c608cc8ff672f72350cbb4b2cd",
+          "sha1": "a53ccc80746f585419692d09662155ab72dbba57",
+          "md5": "1cf735a4389717f05be4ed1c3cabb235"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ansi-1.0.0.jar",
+          "url": "ansi-1.0.0.jar",
+          "size": 20750,
+          "sha512": "33ffd5c4fe246d376dc1a592803bd2f926a19b836459284bdb02544ae67965b7809447c8447af1f12ee997c086c3c48a46c750df937484b27fc3656e16062624",
+          "sha256": "ca8f71e2c3deb1a732b463c9c1a9e4d85bf719c608cc8ff672f72350cbb4b2cd",
+          "sha1": "a53ccc80746f585419692d09662155ab72dbba57",
+          "md5": "1cf735a4389717f05be4ed1c3cabb235"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ansi-1.0.0-javadoc.jar",
+          "url": "ansi-1.0.0-javadoc.jar",
+          "size": 302226,
+          "sha512": "9fb12299c98133e473ead3d7383eca3fa7bddfe58c1629114781a767a4a97fa16a656d88077a691738d2b1c02df44af6f3ee376ebf4ad729b06dbbcd6a06096b",
+          "sha256": "b756a3b6868afccdc47be5b53a511ebaab4847cf37499b3796b009e36eba8b67",
+          "sha1": "38f2af241f4112a44265b9de597de194d6d80c40",
+          "md5": "246d3e3ff733b5730cafe45459760954"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ansi-1.0.0-sources.jar",
+          "url": "ansi-1.0.0-sources.jar",
+          "size": 13066,
+          "sha512": "59bfd25c06123198be90ace364e6113a1265af4f32c94b8a2a4150ea276745f03278f101f3b56d1ad7d277d4e18ed97232e3c4cc03efd001518ba6cdc3de7ad9",
+          "sha256": "b31d86abf92bd1feac81c3faec07a8affbf7389e659eb93331e1bc943499b9c2",
+          "sha1": "9e5a440a460e7963756a66752dec7198c0714b32",
+          "md5": "ecd3864c3a16bf57974fbc072f45ffa2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.retrooper.packetevents",
+    "module": "api",
+    "version": "2.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "api-2.3.0-default.jar",
+          "url": "api-2.3.0-default.jar",
+          "size": 2206669,
+          "sha512": "7afe0f19a7c75029fb6ad732198755a06686e9746a4688c020624e44bd53a0fab56ffd1d2f35911f7d3613bcef68f97845191b0fd4c9a2b70332395c8359ae21",
+          "sha256": "7cb51a695e46f17df35eb628c5d5cd6e5411196f76410a5b38f9f43042c28682",
+          "sha1": "a199b900341990aa6a2899e42e396800c83601f0",
+          "md5": "d557ea61af44d4f2376dcf3d92615e90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "api-2.3.0-default.jar",
+          "url": "api-2.3.0-default.jar",
+          "size": 2206669,
+          "sha512": "7afe0f19a7c75029fb6ad732198755a06686e9746a4688c020624e44bd53a0fab56ffd1d2f35911f7d3613bcef68f97845191b0fd4c9a2b70332395c8359ae21",
+          "sha256": "7cb51a695e46f17df35eb628c5d5cd6e5411196f76410a5b38f9f43042c28682",
+          "sha1": "a199b900341990aa6a2899e42e396800c83601f0",
+          "md5": "d557ea61af44d4f2376dcf3d92615e90"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "api-2.3.0.jar",
+          "url": "api-2.3.0.jar",
+          "size": 2206669,
+          "sha512": "5aa8606201d6f454c3649417cfe39a3db1685184f7373c64947914453ec10a2cdfc81720acd70646da98ebd39cabdb0388f75ca5c12d612071fdf1f7d4074c02",
+          "sha256": "eabe6661b0f0d62af18200523d294d1dde4bd6986c443f535f500bf0a8be0d97",
+          "sha1": "cc62971e85ddf85c6dd92c8e264b764e6685d6c2",
+          "md5": "a3257f81d1c3cc9a7922a3daca60d7bb"
+        }
+      ]
+    }
+  ]
+}

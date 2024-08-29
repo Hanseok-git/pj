@@ -1,0 +1,5 @@
+FROM openjdk:17-jdk
+WORKDIR /minecraft
+COPY ./wild /minecraft
+CMD ["java", "-jar", "paper-1.20.2-318.jar", "--nogui"]
+

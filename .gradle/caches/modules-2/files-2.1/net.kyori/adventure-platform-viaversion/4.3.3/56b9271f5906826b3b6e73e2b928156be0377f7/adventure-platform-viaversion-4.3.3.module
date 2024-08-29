@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kyori",
+    "module": "adventure-platform-viaversion",
+    "version": "4.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.viaversion",
+          "module": "viaversion-api",
+          "version": {
+            "requires": "4.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-platform-viaversion-4.3.3.jar",
+          "url": "adventure-platform-viaversion-4.3.3.jar",
+          "size": 20272,
+          "sha512": "1fcb3edf648cc931b0a4db166c064a53ff5aeaa4073ac538c8b96b91961ac4c54673418ce8b2056bc6e782234e0a22c1def8d2e7c36f85dbe755d9633d8807a4",
+          "sha256": "df463083060a51403df0cfe3e08e3c8890103bfc707e9235f6279e87c619753f",
+          "sha1": "f88d6816a53f4c3a43f76de0a9ee7cd50f5f397f",
+          "md5": "d7330e3e448ffe72c67cb2fb9f4dff49"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.kyori",
+          "module": "adventure-platform-facet",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-platform-viaversion-4.3.3.jar",
+          "url": "adventure-platform-viaversion-4.3.3.jar",
+          "size": 20272,
+          "sha512": "1fcb3edf648cc931b0a4db166c064a53ff5aeaa4073ac538c8b96b91961ac4c54673418ce8b2056bc6e782234e0a22c1def8d2e7c36f85dbe755d9633d8807a4",
+          "sha256": "df463083060a51403df0cfe3e08e3c8890103bfc707e9235f6279e87c619753f",
+          "sha1": "f88d6816a53f4c3a43f76de0a9ee7cd50f5f397f",
+          "md5": "d7330e3e448ffe72c67cb2fb9f4dff49"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.viaversion",
+          "module": "viaversion-api",
+          "version": {
+            "requires": "4.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adventure-platform-viaversion-4.3.3-javadoc.jar",
+          "url": "adventure-platform-viaversion-4.3.3-javadoc.jar",
+          "size": 321373,
+          "sha512": "1dc7af558eb30113f00870d6501e605a66455ca7d5b7c15891d3b9353820edc7591c73e98b5c95c1ac2ab5bac426db0a30e377bb41d4abbc757f42260510961f",
+          "sha256": "10222586ffe4dd4a39eb4ae04fde781b5b6e12798d0f2a72389c9a292e3bba9a",
+          "sha1": "a407282e5de0f56b0aff7197e4e2dca282eaa7cd",
+          "md5": "270383ad2475424322bfd90e97565547"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adventure-platform-viaversion-4.3.3-sources.jar",
+          "url": "adventure-platform-viaversion-4.3.3-sources.jar",
+          "size": 5932,
+          "sha512": "4bb6c84030e8b7ca3a5ea4268bf1a6daa709624a63aa409d1a8334c26027008d3459027e27e102abff65edc9ab8ace0414459f7d71c3540a957465aa499c97c3",
+          "sha256": "450f0b91982af0afdf0dfb313359f571546927084ef25fc3828921fe8d383f9c",
+          "sha1": "c8c474c15c41c2cb80941d4dcb5058b91901926e",
+          "md5": "5cb12ce91fe6984c7a2655d52b6dedbd"
+        }
+      ]
+    }
+  ]
+}

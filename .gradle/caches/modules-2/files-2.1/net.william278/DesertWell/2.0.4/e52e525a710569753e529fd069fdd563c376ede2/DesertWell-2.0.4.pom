@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>net.william278</groupId>
+  <artifactId>DesertWell</artifactId>
+  <version>2.0.4</version>
+  <name>WiIIiam278/DesertWell</name>
+  <description>A library providing various utilities to aid Minecraft plugin development.</description>
+  <url>https://github.com/WiIIiam278/DesertWell</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>WiIIiam278</id>
+      <name>William</name>
+      <email>will27528@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/WiIIiam278/DesertWell.git</connection>
+    <developerConnection>scm:git://github.com/WiIIiam278/DesertWell.git</developerConnection>
+    <url>git://github.com/WiIIiam278/DesertWell.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20230227</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

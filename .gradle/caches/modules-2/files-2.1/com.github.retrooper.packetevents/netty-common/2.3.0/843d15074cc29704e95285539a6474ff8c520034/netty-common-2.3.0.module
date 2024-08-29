@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.retrooper.packetevents",
+    "module": "netty-common",
+    "version": "2.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.retrooper.packetevents",
+          "module": "api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netty-common-2.3.0-default.jar",
+          "url": "netty-common-2.3.0-default.jar",
+          "size": 13973,
+          "sha512": "96ae7e2bedb96e855fb5d36f7eb9baa5ea99148310168062fe64a231bd3b4c265fdcb936096b2a4037d6aa430d64ac7d186b21d90b6851bc8092ed80447dd5d1",
+          "sha256": "56d3c67272da7717fad3e828f240cde22d47f0204466d09dd2219731458f8a3a",
+          "sha1": "0cf43098406b26fda8710bf45b91d4aa9585d8eb",
+          "md5": "1bfbab7d590bd0a85610138a918429fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.retrooper.packetevents",
+          "module": "api",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netty-common-2.3.0-default.jar",
+          "url": "netty-common-2.3.0-default.jar",
+          "size": 13973,
+          "sha512": "96ae7e2bedb96e855fb5d36f7eb9baa5ea99148310168062fe64a231bd3b4c265fdcb936096b2a4037d6aa430d64ac7d186b21d90b6851bc8092ed80447dd5d1",
+          "sha256": "56d3c67272da7717fad3e828f240cde22d47f0204466d09dd2219731458f8a3a",
+          "sha1": "0cf43098406b26fda8710bf45b91d4aa9585d8eb",
+          "md5": "1bfbab7d590bd0a85610138a918429fb"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "netty-common-2.3.0.jar",
+          "url": "netty-common-2.3.0.jar",
+          "size": 2220381,
+          "sha512": "5e571c4fcaf7b32ee1e0de46654b86c1a8d97557cf910d8c357a958faa72864f5ec86afcf62777f096344d4ae79e78bf48342b3f890d60e739e09e3bc91751a6",
+          "sha256": "24dd1bf5b23a8b889b6cae255cdb0baec342d84d99484fe4c0f2becfb3f5068c",
+          "sha1": "50cdc1511df51c55fbe7bb3c1f27f8bf5e9524f7",
+          "md5": "842fe172d300dd5c4fc6c89115de3635"
+        }
+      ]
+    }
+  ]
+}
